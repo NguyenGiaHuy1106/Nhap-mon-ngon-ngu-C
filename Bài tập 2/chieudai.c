@@ -11,7 +11,7 @@ int main(void){
   //Milimet(ml)
   Milimet = l * 1000;
   printf ("\n\n");
-  printf("l*1\tl*100\tl*1000", Met, Xentimet, Milimet);
+  printf("%.1f\t %.1f\t %.1f\t", Met, Xentimet, Milimet);
   return 0;
   
 }
