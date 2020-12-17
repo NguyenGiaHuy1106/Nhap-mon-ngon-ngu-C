@@ -7,40 +7,21 @@ int main(void){
 	switch (Thang)
     {
     case 1:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
         printf("31 ngay");
         break;
     case 2:
         printf("28 ngay hoac 29 ngay");
         break;
-    case 3:
-        printf("31 ngay");
-        break;
     case 4:
-        printf("30 ngay");
-        break;
-    case 5:
-        printf("31 ngay");
-        break;
     case 6:
-        printf("30 ngay");
-        break;
-    case 7:
-        printf("31 ngay");
-        break;
-    case 8:
-        printf("31 ngay");
-        break;
     case 9:
-        printf("30 ngay");
-        break;
-    case 10:
-        printf("31 ngay");
-        break;
-    case 11:
-        printf("30 ngay");
-        break;
-    case 12:
-        printf("31 ngay");
+   	case 11:
+    	printf("30 ngay");
         break;
     default:
     printf("Vui long nhap thang");    
