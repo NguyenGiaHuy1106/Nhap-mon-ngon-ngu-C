@@ -11,7 +11,7 @@ int main(){
 	scanf ("%d", &Soluong);
 	Thanhtien = Dongia * Soluong;
 	//mua nhieu hon 5 va thanh tien hon 500 duoc giam gia 50%
-    if(Soluong >=5 && Thanhtien >= 500 ){
+        if(Soluong >=5 && Thanhtien >= 500 ){
 	    Thanhtien = (Dongia*Soluong)*0.5;
     	printf("%d", &Thanhtien);
 	}else{printf("%d",Thanhtien);
