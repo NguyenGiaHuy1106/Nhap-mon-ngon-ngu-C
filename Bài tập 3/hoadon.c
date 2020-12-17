@@ -4,22 +4,19 @@ int main(){
 	int Soluong;
 	float Dongia, Thanhtien;
 	//nhap gia tri dongia
-	printf("Dongia  = ");
+	printf("Dongia = ", Dongia);
 	scanf ("%d", &Dongia);
 	//nhap gia tri so luong
-	printf("Soluong  = ");
+	printf("Soluong  =  ", Soluong);
 	scanf ("%d", &Soluong);
-	//mua nhieu hon 5 duoc giam gia 25%
-	printf("%d", &Thanhtien);
-    if(Soluong >=5 ){
-	    (Soluong * Dongia)*0.75 = Thanhtien;
-    	printf("%d", Thanhtien);
-	}else(Soluong < 5){
-	    Soluong * Dongia = Thanhtien;
-		printf("%d", Thanhtien);
+	Thanhtien = Dongia * Soluong;
+	//mua nhieu hon 5 va thanh tien hon 500 duoc giam gia 50%
+    if(Soluong >=5 && Thanhtien >= 500 ){
+	    Thanhtien = (Dongia*Soluong)*0.5;
+    	printf("%d", &Thanhtien);
+	}else{printf("%d",Thanhtien);
 	}
-		
-	
 	getchar();
 	return 0 ;
 }
+
