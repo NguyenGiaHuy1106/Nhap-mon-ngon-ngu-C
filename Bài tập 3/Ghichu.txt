@@ -3,3 +3,5 @@ các kí tự như +,- phải đẻ trong dấu '' ( ngoặc đơn)
 defaultmệnh đề bên trong switchcâu lệnh là tùy chọn
 && là " và" , Được gọi là toán tử logic AND (và). Nếu cả hai toán tử đều có giá trị khác 0 thì điều kiện trở lên true.
 to be continued ....
+break để ngắt ngay vị trí của switch
+default ko cần break vì ở vị trí cuối
