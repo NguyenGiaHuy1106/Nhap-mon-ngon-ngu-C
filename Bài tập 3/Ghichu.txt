@@ -5,3 +5,5 @@ defaultmệnh đề bên trong switchcâu lệnh là tùy chọn
 to be continued ....
 break để ngắt ngay vị trí của switch
 default ko cần break vì ở vị trí cuối
+++ là cộng thêm cùng nghĩa với +=1
+<= là khoảng dừng đếm của giá trị cần đếm
