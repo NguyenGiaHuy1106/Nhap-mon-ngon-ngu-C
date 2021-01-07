@@ -7,3 +7,20 @@ int main(void) {
   printf("Bang nhan 4:\n4x1=4\n4x2=8\n4x3=12\n");
   return 0;
 }
+
+
+
+
+#include <stdio.h>
+
+int main(){
+    printf("\nBANG CUU CHUONG\n");
+    for(int i = 2; i < 5;i++){
+        printf("\nBANG NHAN %d:\n", i);
+        for(int j = 1; j <= 3; j++){
+            printf("\t%d x %d = %d\n", i, j, i*j);
+        }
+    }
+    getchar ();
+    return 0;
+}
