@@ -1,15 +1,9 @@
 #include <stdio.h>
- 
-int main(){
-    printf("\nBANG CUU CHUONG\n");
-    //in ra bang tu 2 den 9
-    for(int i = 2; i < 10;i++){
-        printf("\nBANG NHAN %d:\n", i);
-        //thuc hien phep tinh tu 1 den 10
-        for(int j = 1; j <= 10; j++){
-            printf("\t%d x %d = %d\n", i, j, i*j);
-        }
-    }
-    getchar ();
-    return 0;
+
+int main(void) {
+  
+  printf("Bang nhan 2:\n2x1=2\n2x2=4\n2x3=6\n");
+  printf("Bang nhan 3:\n3x1=3\n3x2=6\n3x3=9\n");
+  printf("Bang nhan 4:\n4x1=4\n4x2=8\n4x3=12\n");
+  return 0;
 }
