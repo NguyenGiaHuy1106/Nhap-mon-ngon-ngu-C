@@ -7,3 +7,24 @@ break để ngắt ngay vị trí của switch
 default ko cần break vì ở vị trí cuối
 ++ là cộng thêm cùng nghĩa với +=1
 <= là khoảng dừng đếm của giá trị cần đếm
+for(khoi tao bo dem; dieu kien; buoc dem){
+	//cac lenh
+} 
+vidu:
+for(int i = 1; i <= 10; i = i+1){
+	//cac lenh
+} 
+
+
+khoi tao bo dem
+while(dieu kien){
+	//lenh thuc thi
+	buoc dem
+}
+vidu:
+int i = 1
+while(i <= 10){
+	//lenh thuc thi
+	i = i +1
+}
+
