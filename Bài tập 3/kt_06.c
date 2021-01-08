@@ -1,17 +1,17 @@
 #include <stdio.h>
-main(){
+int main(){
   int h;
   
   printf("h=");
   scanf("%d", &h);
   switch(h){
  //mot hang 	
-case 1: printf("\t   *\n"); break;
+case 1: printf("\t   *\n"); 
+break;
 //hai hang
 case 2:
 printf("\t   *\n");
 printf("\t  ***\n");
-printf("h=");
 break;
 //ba hang
 case 3:
