@@ -40,4 +40,16 @@ int main(){
 	getchar();
 	return 0;
 	}
-    
+    //khong dung for bai cua thay 
+#include<stdio.h>
+int main() {
+  int n = 123;
+  int s = 0;
+  for(;n!=0;){
+  	s=s+n%10;
+  n=n/10;
+  }
+  printf("s=%d",s);
+  getchar();
+  return 0;
+  }
