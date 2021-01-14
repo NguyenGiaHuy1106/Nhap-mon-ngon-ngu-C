@@ -27,4 +27,8 @@ while(i <= 10){
 	//lenh thuc thi
 	i = i +1
 }
-
+sqrt dung de tinh can bac 2 
+delta = b² – 4ac 
+delta > 0 ta co 2 nghiem phan biet
+delta = 0 ta co nghiem kep
+delta < 0 nen vo nghiem
