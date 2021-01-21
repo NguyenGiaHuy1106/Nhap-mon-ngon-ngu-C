@@ -13,17 +13,22 @@ for(int i = 0;i < n; i++){
     printf(" %d ", a[i]); 
   }
   int m;
+  int j = 0;
     printf("\nNhap m:");
     scanf("%d", &m);
 for(int i = 0;i < n; i++){
   if(a[i] == m){
-    printf("Co ton tai");
-  }
-  else{
-    printf("Khong ton tai");
-  }
+    j+=1;
+    
   break;
 }
-
+}
+if (j >0){
+  printf("Co ton tai");
+}
+else{
+  printf("Khong ton tai");
+}
   return 0;
 }
+
