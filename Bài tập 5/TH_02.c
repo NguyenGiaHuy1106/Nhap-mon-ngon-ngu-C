@@ -5,10 +5,8 @@ int main(){
     int s = 0;
     printf("Nhap n: ");
     scanf("%d",&n);
-    for(;n!=0;){
-        m = n % 10;
-        s += m;
-        n /= 10;
+    for(m = 0; m < n; m++){
+        s+=m;
     }    
     printf("%d",s);
     getchar ();
