@@ -1,26 +1,26 @@
 #include <stdio.h>
-int a, b, c;
+float a, b, c;
 int So_lon_nhat_la();
 
 int main(){
   
   printf("Nhap so a = ");
-  scanf("%d", &a);
+  scanf("%f", &a);
   printf("Nhap so b = ");
-  scanf("%d", &b);
+  scanf("%f", &b);
   printf("Nhap so c = ");
-  scanf("%d", &c);
+  scanf("%f", &c);
   So_lon_nhat_la();
   
   return 0;
 }
 int So_lon_nhat_la(){
   if (a >= b && a >= c) {
-	  printf("So lon nhat trong ba so la: %d",a);
+	  printf("So lon nhat trong ba so la: %f",a);
 	} else if (b >= c && b > c) {
-		printf("So lon nhat trong ba so la: %d",b);
+		printf("So lon nhat trong ba so la: %f",b);
 	} else {
-		printf("So lon nhat trong ba so la: %d",c);
+		printf("So lon nhat trong ba so la: %f",c);
   }
 return 0;
 }
